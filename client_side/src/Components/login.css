@@ -1,0 +1,100 @@
+ .background{
+    height: 768px;
+    width: 100%;
+    opacity: 0.7;
+} 
+/* #login-outerlayout {
+    background-image: url("../../public/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.7;
+} */
+
+.Displayform {
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 50px;
+    width: 50%;
+    display: flex;
+    margin: auto;
+    /* border:2px solid red; */
+    margin-top: 70px;
+}
+
+/* .Image {
+    width: 50%;
+} */
+
+.form-form {
+    background-color: #b3dbf9;
+    width: 50%; 
+    text-align: left;
+}
+
+input {
+    padding: 10px 50px;
+    margin-left: 45px;
+}
+
+.color {
+    margin-left: 45px;
+    color: #174870	;
+}
+
+.image {
+    width: 417px;
+    height: 400px;
+}
+
+.btn {
+    margin-left: 130px;
+    margin-top: 30px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    color: #3282c3;
+    font-weight: bold;
+}
+
+p {
+    margin-left: 45px;
+    font-size: 15px;
+    color: white;
+}
+
+.Connect-with {
+    display: flex;
+}
+
+.insta {
+    height: 35px;
+    width: 35px;
+    margin-left: 50px;
+    border-radius: 150px;
+    margin-top: 10px;
+}
+
+.facebook {
+    height: 33px;
+    width: 33px;
+    margin-left: 15px;
+    border-radius: 150px;
+    margin-top: 10px;
+}
+
+.google {
+    height: 32px;
+    width: 32px;
+    border-radius: 150px;
+    margin-left: 15px;
+    margin-top: 10px;
+} 
+.second{
+    width: 50%;
+    /* border:1px solid black; */
+}
+.secondimg{
+    height: 400px;
+    width: 380px;
+    opacity: 0.7;
+}

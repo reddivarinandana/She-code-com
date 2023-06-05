@@ -1,0 +1,52 @@
+/* #layout {
+    background-size: cover;
+    background-color: #a1c4e0;
+} */
+.Display{
+    /* background-color: #4682b4; */
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    width: 55%;
+    margin-left: 280px;
+    margin-top: 40px;
+}
+.Image{
+    /* border:2px solid black; */
+    width: 50%;
+}
+.form{
+    width:50%;
+    text-align: left;
+    background-color: #b3dbf9;
+}
+#name{
+    /* margin-top: 50px; */
+    margin-left: 46px;
+}
+input{
+    padding:10px 50px;
+    margin-left: 65px;
+    /* border-radius: 7px; */
+}
+label{
+    margin-left: 60px;
+    color: #174870	;
+}
+.first{
+    width: 417px;
+   height: 500px;
+   opacity: 0.7;
+}
+.button{
+    margin-left: 150px;
+    margin-top: 20px;
+    padding: 10px 15px;
+    /* margin-bottom: 10px; */
+    color: #4682b4	;
+    font-weight: bold;
+}
+.account{
+    font-size: 15px;
+    color:white;
+}
