@@ -1,0 +1,39 @@
+.navbar {
+    border: 1px solid red;
+    height: 60px;
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.tutorial {
+    margin-left: 850px;
+    font-weight: normal;
+}
+
+.video {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.quiz {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.test {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.signup {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.educationImage {
+    /* background-image: url('../../public/background.jpg'); */
+    /* background-size: 50% 50%;  */
+    height: 500px;
+    width: 500px;
+}

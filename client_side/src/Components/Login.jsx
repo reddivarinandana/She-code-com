@@ -22,15 +22,6 @@ function Login({islogin,setIsLogin}) {
         }else{
             alert("Please Enter the mandatory field in the form");
         }
-        // if(user!=="" && password !== ""){
-        //     var results = JSON.parse(localStorage.getItem("signupdata")) || [];
-        //     for(let i=0; i<results.length; i++){
-        //         const {userName,password} = results[i];
-        //         console.log(userName,password)
-        //     }
-        // }else{
-        //     alert("please enter all details")
-        // }
     }
     const handleRedirect = () =>{
         setIsLogin(false);
@@ -47,6 +38,7 @@ function Login({islogin,setIsLogin}) {
                     <input type="text" className="password" placeholder="Enter Your Password" onChange={(e) => setPassword(e.target.value
                     )} />
                     <button className="btn" onClick={logindata}>Submit</button>
+                    <p>Forgot Password</p>
                     <p>If you don't have any account please <span onClick={handleRedirect}>signup</span></p>
                     <p>Or Login With</p>
                     <p className="Connect-with">

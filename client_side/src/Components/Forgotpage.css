@@ -1,0 +1,58 @@
+#forgotLayout{
+    background-image:" url(background.jpg )";
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    border: 50px solid white;
+    height: 400px;
+    margin-left: 320px;
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.forgot-image{
+    width:50%;
+}
+.img-forgot{
+    height: 396px;
+    width: 381px;
+    opacity: 0.7;
+}
+.forgotpage{
+    width:50%;
+    background-color: #b3dbf9;
+    text-align: left;
+    padding-top: 12px;
+}
+input{
+    padding: 10px 50px;
+    margin-left: 40px;
+    margin-top: 7px;
+}
+.user{
+    margin-left: 40px;
+    color: #174870	;
+    font-weight: bold;
+}
+.new{
+    margin-left: 40px;
+    color: #174870	;
+    font-weight: bold;
+}
+.old{
+    margin-left: 40px;
+    color:#174870	;
+    font-weight: bold;
+}
+.submit{
+    margin-left: 84px;
+    padding: 10px 70px;
+    margin-top: 20px;
+    color: #174870	;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.spanning{
+    margin-left: 240px;
+    color: #174870	;
+}
+
