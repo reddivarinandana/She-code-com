@@ -1,7 +1,7 @@
 import './Forgotpage.css';
 import React,{useState } from 'react';
 
-function ForgotPage(isForgot,setIsForgot){
+function ForgotPage(isforgot,setIsForgot){
     const [UserName,setUserName] = useState("");
     const [newpassword,setnewpassword] = useState("");
     const [confirmpassword,setconfirmpassword] = useState("");

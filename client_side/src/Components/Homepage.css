@@ -1,8 +1,11 @@
 .navbar {
     /* border: 1px solid red; */
     height: 60px;
+    width: 100%;
+    height: 60px;
     display: flex;
     width: 100%;
+    /* position: fixed; */
     /* margin-left: 5%; */
     background-color: #b3dbf9;
     color: #0a4270	;
@@ -12,7 +15,7 @@
 }
 
 .tutorial {
-    margin-left: 95px;
+    margin-left: 25px;
     font-weight: normal;
 }
 
@@ -35,10 +38,20 @@
     margin-left: 30px;
     font-weight: normal;
 }
+.quote{
+    color:white;
+}
 
 .educationImage {
     width: 90%;
-    margin-left: 5%;
+    height: 700px;
+    margin-left: 5%; 
+    background-image: url('../../public/background.jpg');
+    background-size: 1355px 700px;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    padding-top: 40px;
+    
 }
 .sliderpic{
     height: 100vh;
@@ -46,19 +59,109 @@
     opacity: 0.7;
 }
 .box{
-    border:1px solid black;
+    border:1px solid #0a4270;
+    margin-top: 10px;
     height: 40px;
     width: 300px;
     margin-top: 10px;
     margin-left: 450px;
+    border-radius: 7px;
+    margin-top: 10px;
 }
-.left{
+/* .left{
     margin-top: -0px;
-}
-.search-box{
+} */
+/* .search-box{
     border:1px solid blue;
-    height: 38px;
+    height: 40px;
     width: 50px;
-    /* padding: 5px 5px; */
+    padding: 5px 5px;
     margin-left: 250px;
+} */
+.concepts{
+    margin-top: 10px;
+    color: #0a4270	;
+    width: 90%;
+    margin-left: 5%;
+}
+.concept{
+    display: flex;
+    margin-top: 33px;
+    font-size: 20px;
+}
+.concept div{
+    height: 200px;
+    width: 300px;
+    border: 1px solid #0a4270;
+}
+.box1{
+    margin-left: 33px;
+}
+.footer{
+    height:250px;
+    margin-top: 40px;
+    background-color: #b3dbf9;
+}
+.facebookimage{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+}
+.googleimage{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.instaimage{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+h2{
+    color: #0a4270	; 
+}
+/* h4{
+    margin-top: -0px;
+} */
+/* .searchbox{
+    height:40px;
+    width: 60px;
+    margin-top: 10px;
+    border:1px solid red;
+} */
+.icon{
+   margin-left: 5px;
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    border-radius: 7px;
+    border:1px solid #0a4270;
+}
+.display{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.Quiz{
+    margin-right: 30px;
+}
+.firstpart{
+    display: flex;
+}
+.secondpart{
+    margin-left: 460px;
+}
+.thirdpart{
+    margin-left: 490px;
+}
+.text{
+    font-size: 12px;
+}
+.introimage{
+    height: 200px;
+    width: 243px;
 }
