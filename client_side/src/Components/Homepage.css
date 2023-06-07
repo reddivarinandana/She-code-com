@@ -1,13 +1,18 @@
 .navbar {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 60px;
     display: flex;
-    width: 90%;
+    width: 100%;
+    /* margin-left: 5%; */
+    background-color: #b3dbf9;
+    color: #0a4270	;
+}
+.logo{
     margin-left: 5%;
 }
 
 .tutorial {
-    margin-left: 850px;
+    margin-left: 95px;
     font-weight: normal;
 }
 
@@ -32,8 +37,28 @@
 }
 
 .educationImage {
-    /* background-image: url('../../public/background.jpg'); */
-    /* background-size: 50% 50%;  */
-    height: 500px;
-    width: 500px;
+    width: 90%;
+    margin-left: 5%;
+}
+.sliderpic{
+    height: 100vh;
+    width: 100%;
+    opacity: 0.7;
+}
+.box{
+    border:1px solid black;
+    height: 40px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 450px;
+}
+.left{
+    margin-top: -0px;
+}
+.search-box{
+    border:1px solid blue;
+    height: 38px;
+    width: 50px;
+    /* padding: 5px 5px; */
+    margin-left: 250px;
 }

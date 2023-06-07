@@ -6,8 +6,10 @@ function HomePage(){
     return(
         <div>
             <div className="navbar">
-                {/* <img src="" alt="" /> */}
-                <h1>SHecode</h1>
+                <h1 className="logo"><span style={{color:"red"}}>S</span><span style={{color:"green"}}>H</span>ecode</h1>
+                <div className="box">
+                    <div className="search-box"><h5 className="left">Search</h5></div>
+                </div>
                 <h3 className="tutorial">Tutorial</h3>
                 <h3 className="video">Videos</h3>
                 <h3 className="quiz">Quiz</h3>
@@ -15,7 +17,8 @@ function HomePage(){
                 <h3 className="signup">Signup</h3>
             </div>
             <div className="educationImage">
-                <style background-image="background.jpg"></style>
+                {/* <span style={{backgroundImage:"background.jpg"}}></span> */}
+                <img class="sliderpic" src="background.jpg" alt="" />
             </div>
         </div>
     )
