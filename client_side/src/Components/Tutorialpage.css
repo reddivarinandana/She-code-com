@@ -1,0 +1,112 @@
+.navbar {
+    /* border: 1px solid red; */
+    height: 60px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    width: 100%;
+    /* position: fixed; */
+    /* margin-left: 5%; */
+    background-color: #b3dbf9;
+    color: #0a4270	;
+}
+.logo{
+    margin-left: 5%;
+}
+.box{
+    border:1px solid #0a4270;
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 450px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.tutorial {
+    margin-left: 25px;
+    font-weight: normal;
+}
+
+.video {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.quiz {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.test {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.signup {
+    margin-left: 30px;
+    font-weight: normal;
+}
+.quote{
+    color:white;
+}
+.icon{
+    margin-left: 5px;
+     height: 40px;
+     width: 40px;
+     margin-top: 10px;
+     border-radius: 7px;
+     border:1px solid #0a4270;
+}
+.footer{
+    height:250px;
+    margin-top: 40px;
+    background-color: #b3dbf9;
+}
+.display{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.Quiz{
+    margin-right: 30px;
+}
+.firstpart{
+    display: flex;
+}
+.secondpart{
+    margin-left: 460px;
+}
+.thirdpart{
+    margin-left: 490px;
+}
+.text{
+    font-size: 12px;
+}
+.Heading{
+    color:#0a4270;
+}
+.head1{
+    border:1px solid red;
+    font-size: 20px;
+}
+.content2{
+    margin-top: 20px;
+    height: 40px;
+    width: 40px;
+}
+.conceptImage{
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border:1px solid #0a4270;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.displayConcepts{
+    border:1px solid red;
+    width:90%;
+    margin-left: 5%;
+}

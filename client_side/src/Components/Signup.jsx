@@ -46,7 +46,7 @@ function Signup({islogin,setIsLogin}) {
             <h1>Signup Form</h1>
             <div className="Display">
                 <div className="Image">
-                    <img className="first" src="background.jpg" alt="" />
+                    <img className="first" src="resources/background.jpg" alt="" />
                 </div>
                 <div className="form"><br/>
                     <label id="name">Name</label><br/>

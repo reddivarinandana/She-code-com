@@ -1,7 +1,7 @@
 import './Forgotpage.css';
 import React,{useState } from 'react';
 
-function ForgotPage(isforgot,setIsForgot){
+function ForgotPage({setIsForgot,setIsLogin}){
     const [UserName,setUserName] = useState("");
     const [newpassword,setnewpassword] = useState("");
     const [confirmpassword,setconfirmpassword] = useState("");
@@ -38,6 +38,7 @@ function ForgotPage(isforgot,setIsForgot){
     }
     const handleRedirect = ()=>{
         setIsForgot(false);
+        setIsLogin(true);
     }
     
 
@@ -51,11 +52,11 @@ function ForgotPage(isforgot,setIsForgot){
                     <input type="password" placeholder='enter new password' onChange={(e) => setnewpassword(e.target.value)} /><br/><br/><br/>
                     <label className='old'>Confirm Password</label><br/>
                     <input type="password" placeholder='enter confirm password' onChange={(e) => setconfirmpassword(e.target.value)} /><br/>
-                    <button class="submit" onClick={forgot}>Submit</button>
-                    <p class="spanning"><span onClick={handleRedirect}>Go to Login</span></p>
+                    <button className="submit" onClick={forgot}>Submit</button>
+                    <p className="spanning"><span onClick={handleRedirect}>Go to Login</span></p>
                 </div> 
                   <div className='forgot-image'>
-                     <img class="img-forgot"src="background.jpg" alt="" /> 
+                     <img className="img-forgot"src="/resources/background.jpg" alt="" /> 
                 </div> 
         </div>
         </div>

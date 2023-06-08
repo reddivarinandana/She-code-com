@@ -10,7 +10,7 @@ function HomePage(){
                 <div className="box">
                 </div>
                 <div className="searchbox">
-                    <img class="icon" src="https://cdn.icon-icons.com/icons2/3392/PNG/512/small_search_icon_213735.png" alt="" />
+                    <img className="icon" src="https://cdn.icon-icons.com/icons2/3392/PNG/512/small_search_icon_213735.png" alt="" />
                 </div>
                 <h3 className="tutorial">Tutorial</h3>
                 <h3 className="video">Videos</h3>
@@ -21,28 +21,34 @@ function HomePage(){
             <div className="educationImage">
                 <h1 className="quote">Education is the most powerful<br/> weapon which you can use<br/> to change the world.</h1>
             </div>
+            <div className="container">
+                <div className="Layout1"></div>
+                <div className="Layout2"></div>
+                <div className="Layout3"></div>
+                <div className="Layout4"></div>
+            </div>
             <div className="concepts">
                 <h1>Python Concepts</h1>
                 <div className="concept">
-                    <div ><img className="introimage" src="introimage.png" alt="" /></div>
-                    <div className="box1"><img className="introimage" src="syntax.png" alt="" /></div>
-                    <div className="box1"><img className="introimage" src="commentsimage.jpg" alt="" /></div>
-                    <div className="box1"><img className="introimage" src="variables.png" alt="" /></div>
-                    <div className="box1"><img className="introimage" src="datatypes.jpg" alt="" /></div>
+                    <div ><img className="introimage" src="/resources/introimage.png" alt="" /></div>
+                    <div className="box1"><img className="introimage" src="/resources/syntax.png" alt="" /></div>
+                    <div className="box1"><img className="introimage" src="/resources/commentsimage.jpg" alt="" /></div>
+                    <div className="box1"><img className="introimage" src="/resources/variables.png" alt="" /></div>
+                    <div className="box1"><img className="introimage" src="/resources/datatypes.jpg" alt="" /></div>
                 </div>
                 <div className="concept">
-                    <div><img className="introimage" src="operatorsimage.jpg" alt="" /></div>
-                    <div className="box1"><img className="introimage" src="conditionalstatement.png" alt="" /></div>
-                    <div className="box1"><img className="introimage" src="loops.png" alt="" /></div>
-                    <div className="box1"><img className="introimage" src="functions.png" alt="" /></div>
-                    <div className="box1"><img className="introimage" src="lists.png" alt="" /></div>
+                    <div><img className="introimage" src="/resources/operatorsimage.jpg" alt="" /></div>
+                    <div className="box1"><img className="introimage" src="/resources/conditionalstatement.png" alt="" /></div>
+                    <div className="box1"><img className="introimage" src="/resources/loops.png" alt="" /></div>
+                    <div className="box1"><img className="introimage" src="/resources/functions.png" alt="" /></div>
+                    <div className="box1"><img className="introimage" src="/resources/lists.png" alt="" /></div>
                 </div>
                 <div className="concept">
-                    <div><img className="introimage" src="string.jpg" alt="" /></div>
-                    <div className="box1"><img className="introimage" src="dictionary.png" alt="" /></div>
-                    <div className="box1"><img className="introimage" src="tuples.jpeg" alt="" /></div>
-                    <div className="box1"><img className="introimage" src="sets.jpeg" alt="" /></div>
-                    <div className="box1"><img className="introimage" src="filehandling.jpeg" alt="" /></div>
+                    <div><img className="introimage" src="/resources/string.jpg" alt="" /></div>
+                    <div className="box1"><img className="introimage" src="/resources/dictionary.png" alt="" /></div>
+                    <div className="box1"><img className="introimage" src="/resources/tuples.jpeg" alt="" /></div>
+                    <div className="box1"><img className="introimage" src="/resources/sets.jpeg" alt="" /></div>
+                    <div className="box1"><img className="introimage" src="/resources/filehandling.jpeg" alt="" /></div>
                 </div>
 
             </div>
@@ -54,9 +60,9 @@ function HomePage(){
                     </div>
                     <div className="secondpart">
                         <h2>Stay Connected with us</h2>
-                        <img className="facebookimage" src="facebookimage.jpg" alt="" />
-                        <img className="googleimage" src="googleimage.png" alt="" />
-                        <img className="instaimage" src="instaimage.jpeg" alt="" />
+                        <img className="facebookimage" src="/resources/facebookimage.jpg" alt="" />
+                        <img className="googleimage" src="/resources/googleimage.png" alt="" />
+                        <img className="instaimage" src="/resources/instaimage.jpeg" alt="" />
                     </div>
                     <div className="thirdpart">
                         <h2>Contact with</h2>

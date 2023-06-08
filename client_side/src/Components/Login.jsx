@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './login.css';
 
-function Login({islogin,setIsLogin}) {
+function Login({islogin,setIsLogin,setIsForgot}) {
     const [user, setUserName] = useState("");
     const [password, setPassword] = useState("");
     function logindata() {
@@ -26,6 +26,10 @@ function Login({islogin,setIsLogin}) {
     const handleRedirect = () =>{
         setIsLogin(false);
     }
+
+    const handleForgot = () => {
+        setIsForgot(true);
+    }
     return (
         <div id="login-outerlayout">
             <h1>Login Form</h1>
@@ -38,17 +42,17 @@ function Login({islogin,setIsLogin}) {
                     <input type="text" className="password" placeholder="Enter Your Password" onChange={(e) => setPassword(e.target.value
                     )} />
                     <button className="btn" onClick={logindata}>Submit</button>
-                    <p>Forgot Password</p>
+                    <div onClick={handleForgot}>Forgot Password</div>
                     <p>If you don't have any account please <span onClick={handleRedirect}>signup</span></p>
                     <p>Or Login With</p>
                     <p className="Connect-with">
-                        <img className="insta" src="siri.jpeg" alt="" />
-                        <img className="google" src="googleimage.png" alt="" />
-                        <img className="facebook" src="facebookimage.jpg" alt="" />
+                        <img className="insta" src="/resources/instaimage.jpeg" alt="" />
+                        <img className="google" src="/resources/googleimage.png" alt="" />
+                        <img className="facebook" src="/resources/facebookimage.jpg" alt="" />
                     </p>
                 </div>
                 <div className="second">
-                    <img className="secondimg" src="background.jpg" alt="" />
+                    <img className="secondimg" src="/resources/background.jpg" alt="" />
                 </div>
             </div>
         </div>
