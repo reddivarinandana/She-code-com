@@ -1,0 +1,55 @@
+.navbar {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    /* position: fixed; */
+    background-color: #b3dbf9;
+    color: #0a4270	;
+}
+.logo{
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+.tutorial {
+    margin-left: 35px;
+    font-weight: normal;
+}
+
+.video {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.quiz {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.test {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.signup {
+    margin-left: 30px;
+    font-weight: normal;
+}
+.box{
+    border:1px solid #0a4270;
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 450px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.icon{
+    margin-left: 5px;
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    border-radius: 7px;
+    border:1px solid #0a4270;
+}

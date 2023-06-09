@@ -10,7 +10,7 @@ function HomePage(){
                 <div className="box">
                 </div>
                 <div className="searchbox">
-                    <img className="icon" src="https://cdn.icon-icons.com/icons2/3392/PNG/512/small_search_icon_213735.png" alt="" />
+                    <img className="icon" src="/resources/searchIcon.png" alt="" />
                 </div>
                 <h3 className="tutorial">Tutorial</h3>
                 <h3 className="video">Videos</h3>
