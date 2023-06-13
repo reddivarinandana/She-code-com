@@ -65,7 +65,7 @@ function Signup({islogin,setIsLogin}) {
                     <input type="number" className="phone" placeholder="Enter your PhoneNumber" onChange={(e) => setPhone(e.target.value
                     )} />
                     <button className="button" onClick={signupdata}>Submit</button>
-                    <p class="account">Already have an account please <span onClick={handleRedirect}>Login</span></p>
+                    <p className="account">Already have an account please <span onClick={handleRedirect}>Login</span></p>
                 </div>
             </div>
         </div>

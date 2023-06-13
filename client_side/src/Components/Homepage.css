@@ -14,7 +14,7 @@
 }
 
 .tutorial {
-    margin-left: 25px;
+    margin-left: 826px;
     font-weight: normal;
 }
 
@@ -91,8 +91,9 @@
 .concept div{
     height: 200px;
     width: 250px;
-    border: 1px solid #0a4270;
+    border: 3px solid #0a4270;
     padding:32px;
+   /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;*/
 }
 .box1{
     margin-left: 33px;
@@ -122,23 +123,6 @@
 h2{
     color: #0a4270	; 
 }
-/* h4{
-    margin-top: -0px;
-} */
-/* .searchbox{
-    height:40px;
-    width: 60px;
-    margin-top: 10px;
-    border:1px solid red;
-} */
-.icon{
-   margin-left: 5px;
-    height: 40px;
-    width: 40px;
-    margin-top: 10px;
-    border-radius: 7px;
-    border:1px solid #0a4270;
-}
 .display{
     display: flex;
     width: 90%;
@@ -164,6 +148,7 @@ h2{
 .introimage{
     height: 200px;
     width: 243px;
+    background-color: #b3dbf9;
 }
 .container{
     display: flex;
@@ -172,16 +157,46 @@ h2{
     margin-left: 5%;
 }
 .container div{
-    border:1px solid black;
+    /* border:1px solid black; */
     height: 300px;
     width: 300px;
 }
+.Layout1{
+    color: #0a4270	; 
+    line-height: 30px;
+}
 .Layout2{
     margin-left: 50px;
+    color: #0a4270	; 
+    line-height: 30px;
 }
 .Layout3{
     margin-left: 50px;
+    color: #0a4270	; 
+    line-height: 30px;
 }
 .Layout4{
     margin-left: 50px;
+    color: #0a4270	; 
+    line-height: 24px;
+}
+.image1{
+    width: 300px;
+    height: 200px;
+}
+#box_10{
+    /* border:3px solid #0a4270; */
+    height: 130px;
+    width: 180px;
+    background-color: #b3dbf9;
+}
+.pythonlogo{
+    height: 70px;
+    width: 70px;
+}
+/* .conceptcolor{
+    color: yellow;
+} */
+.box_11{
+    margin-left: 27px;
 }

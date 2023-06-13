@@ -8,7 +8,7 @@ function Login({islogin,setIsLogin,setIsForgot}) {
         console.log(user, password);
         if(user.length !== 0 && password.length !== 0){
             var results = JSON.parse(localStorage.getItem("signupdata")) || [];
-            let flag = "Please signup first before login into this website";
+            let flag = "login failed(Please signup first before login into this website)";
             const loginDetails = JSON.parse(localStorage.getItem("login")) || [];
             for(let i = 0; i < results.length; i++){
                 const {userName, password} = results[i];

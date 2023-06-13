@@ -121,11 +121,11 @@ function OneConcept(){
         <div>
             <div className="navbar">
                 <h1 className="logo"><span style={{ color: "red" }}>S</span><span style={{ color: "green" }}>H</span>ecodes</h1>
-                <div className="box">
+                {/* <div className="box">
                 </div>
                 <div className="searchbox">
                     <img className="icon" src="/resources/searchIcon.png" alt="" />
-                </div>
+                </div> */}
                 <h3 className="tutorial">Tutorial</h3>
                 <h3 className="video">Videos</h3>
                 <h3 className="quiz">Quiz</h3>
