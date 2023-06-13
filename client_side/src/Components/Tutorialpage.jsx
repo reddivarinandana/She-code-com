@@ -121,7 +121,7 @@ function Tutorial() {
     return (
         <div>
             <div className="navbar">
-                <h1 className="logo"><span style={{ color: "red" }}>S</span><span style={{ color: "green" }}>H</span>ecode</h1>
+                <h1 className="logo"><span style={{ color: "red" }}>S</span><span style={{ color: "green" }}>H</span>ecodes</h1>
                 <div className="box">
                 </div>
                 <div className="searchbox">

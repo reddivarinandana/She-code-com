@@ -90,8 +90,9 @@
 }
 .concept div{
     height: 200px;
-    width: 300px;
+    width: 250px;
     border: 1px solid #0a4270;
+    padding:32px;
 }
 .box1{
     margin-left: 33px;

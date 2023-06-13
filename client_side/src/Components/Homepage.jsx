@@ -6,7 +6,7 @@ function HomePage(){
     return(
         <div>
             <div className="navbar">
-                <h1 className="logo"><span style={{color:"red"}}>S</span><span style={{color:"green"}}>H</span>ecode</h1>
+                <h1 className="logo"><span style={{color:"red"}}>S</span><span style={{color:"green"}}>H</span>ecodes</h1>
                 <div className="box">
                 </div>
                 <div className="searchbox">
@@ -34,19 +34,21 @@ function HomePage(){
                     <div className="box1"><img className="introimage" src="/resources/syntax.png" alt="" /></div>
                     <div className="box1"><img className="introimage" src="/resources/commentsimage.jpg" alt="" /></div>
                     <div className="box1"><img className="introimage" src="/resources/variables.png" alt="" /></div>
-                    <div className="box1"><img className="introimage" src="/resources/datatypes.jpg" alt="" /></div>
                 </div>
                 <div className="concept">
-                    <div><img className="introimage" src="/resources/operatorsimage.jpg" alt="" /></div>
+                    <div><img className="introimage" src="/resources/datatypes.jpg" alt="" /></div>
+                    <div className="box1"><img className="introimage" src="/resources/operatorsimage.jpg" alt="" /></div>
                     <div className="box1"><img className="introimage" src="/resources/conditionalstatement.png" alt="" /></div>
                     <div className="box1"><img className="introimage" src="/resources/loops.png" alt="" /></div>
-                    <div className="box1"><img className="introimage" src="/resources/functions.png" alt="" /></div>
-                    <div className="box1"><img className="introimage" src="/resources/lists.png" alt="" /></div>
                 </div>
                 <div className="concept">
-                    <div><img className="introimage" src="/resources/string.jpg" alt="" /></div>
+                    <div><img className="introimage" src="/resources/functions.png" alt="" /></div>
+                    <div className="box1"><img className="introimage" src="/resources/lists.png" alt="" /></div>
+                    <div className="box1"><img className="introimage" src="/resources/string.jpg" alt="" /></div>
                     <div className="box1"><img className="introimage" src="/resources/dictionary.png" alt="" /></div>
-                    <div className="box1"><img className="introimage" src="/resources/tuples.jpeg" alt="" /></div>
+                </div>
+                <div className="concept">
+                    <div><img className="introimage" src="/resources/tuples.jpeg" alt="" /></div>
                     <div className="box1"><img className="introimage" src="/resources/sets.jpeg" alt="" /></div>
                     <div className="box1"><img className="introimage" src="/resources/filehandling.jpeg" alt="" /></div>
                 </div>
@@ -71,7 +73,7 @@ function HomePage(){
                     </div>
                 </div>
                 <div className="text">
-                    <h2>SHecode is enhance for Learning</h2>
+                    <h2>SHecodes is enhance for Learning</h2>
                 </div>
             </div>
             

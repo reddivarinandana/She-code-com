@@ -6,7 +6,7 @@ function Video(){
     return(
         <div>
             <div className="navbar">
-                <h1 className="logo"><span className="Logo" style={{ color: "red" }}>S</span><span style={{ color: "green" }}>H</span>ecode</h1>
+                <h1 className="logo"><span className="Logo" style={{ color: "red" }}>S</span><span style={{ color: "green" }}>H</span>ecodes</h1>
                 <div className="box">
                 </div>
                 <div className="searchbox">
@@ -39,7 +39,7 @@ function Video(){
                     </div>
                 </div>
                 <div className="text">
-                    <h2>SHecode is enhance for Learning</h2>
+                    <h2>SHecodes is enhance for Learning</h2>
                 </div>
             </div>
         </div>
