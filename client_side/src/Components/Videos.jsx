@@ -15,7 +15,7 @@ function Video(){
         conceptName: "Basic Syntax of Python",
         conceptavatar: "https://www.tutorialinhindi.com/wp-content/uploads/2021/12/syntax-of-python-in-hindi-1024x576.png",
         content: "",
-        video: "https://www.youtube.com/watch?v=drfr-jrkQjg"
+        video: "https://www.youtube.com/watch?v=drfr-jrkQjg.mp4"
     },
     {
         id: "3",
@@ -47,7 +47,7 @@ function Video(){
     },
     {
         id: "7",
-        conceptName: "Conditional Statements in Python",
+        conceptName: "Conditional Statements",
         conceptavatar: "https://www.shiksha.com/online-courses/articles/wp-content/uploads/sites/11/2022/02/Conditional-Statements-in-Python.png",
         content: "",
         video: "https://www.youtube.com/watch?v=JEyXjMg6F1A&list=PLC2mgeYbYNm-3aTUq98pbmrA3P1_m-aJR&index=9"
@@ -130,23 +130,34 @@ function Video(){
                 <h3 className="test">Test</h3>
                 <h3 className="signup">Signup</h3>
             </div>
-            <div className="displayVideos"><h1>All Concepts</h1>
-                {
-                //     viewoneconcepts.map((item) => (
-                //     <p key = {item.id}>{item.video}</p>
-                // ))
-                viewoneconcepts?.map(({conceptName,video : videos})=>(<div>
-                    <p>{conceptName}</p>
-                    <video controls width="250">
-                            <source src={videos} type="video/mp4">
-                            </source>
-                    </video>
-                </div>)
-                )
-            }
+            <div>
+                <h2>All Videos</h2>
             </div>
-            {/* <div className="DisplayVideos">
-            </div> */}
+            <div className="displayVideos">
+                {/* {
+                viewoneconcepts?.map(({conceptName,video})=>
+                    (<div className="div">
+                        <video className="Videos" width="250" controls>
+                            <source  src={"video"} type="video/mp4"/>
+                        </video>
+                        <p className="colour">{conceptName}</p>
+                    </div>)
+                )} */}
+               {
+                viewoneconcepts?.map(({ conceptName, video }) => (
+                    <div className="div" key={conceptName}>
+
+                        <a width="250" href={video} target="_blank" type="video/mp4">
+                        {conceptName}
+                        </a>
+                    {/* <video className="Videos" width="250" controls>
+                        <source src={video} type="video/mp4" />
+                    </video> */}
+                    <p className="colour">{conceptName}</p>
+                    </div>
+                ))
+                }
+            </div>
             <div className="footer">
                 <div className="display">
                     <div className="firstpart">

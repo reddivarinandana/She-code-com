@@ -97,3 +97,26 @@
 .text{
     font-size: 12px;
 }
+.colour{
+    color:#0a4270;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+.div{
+    border:2px solid #82b7e2;
+    height: 220px;
+    width: 300px;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+.displayVideos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: 4%;
+}
+.Videos{
+    margin-top: 20px;
+    border: 5px solid #b3dbf9;
+}

@@ -95,6 +95,9 @@
     padding:32px;
    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;*/
 }
+.concept div:hover{
+    background-color: yellow;
+}
 .box1{
     margin-left: 33px;
 }
@@ -189,14 +192,17 @@ h2{
     height: 130px;
     width: 180px;
     background-color: #b3dbf9;
+    cursor: pointer;
+}
+#box_10:hover{
+    color:red;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .pythonlogo{
     height: 70px;
     width: 70px;
+    cursor: pointer;
 }
-/* .conceptcolor{
-    color: yellow;
-} */
 .box_11{
     margin-left: 27px;
 }

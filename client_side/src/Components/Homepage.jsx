@@ -33,7 +33,9 @@ function HomePage(){
                     <div>
                         <div id="box_10">
                             <img className="pythonlogo" src="/resources/pythonlogo.png" alt="" />
-                            <h4 className="conceptcolor">Inroduction To Python</h4>                            
+                            <h4 className="conceptcolor">Inroduction To Python</h4>  
+                            <p>A versatile and user-friendly programming language known for its simplicity and readability.</p> 
+                            <button>Read More</button>                         
                         </div>
                     </div>
                     <div className="box_11">

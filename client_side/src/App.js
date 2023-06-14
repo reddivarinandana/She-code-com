@@ -1,10 +1,13 @@
 import './App.css';
-import Signup from './Components/Signup';
-import Login from './Components/Login';
+ import Signup from './Components/Signup';
+ import Login from './Components/Login';
 import { useState } from 'react';
 import ForgotPage from './Components/Forgotpage';
 import HomePage from './Components/Homepage';
-import Tutorial from './Components/Tutorialpage'
+import Tutorial from './Components/Tutorialpage';
+   import Video from './Components/Videos';
+  import OneConcept from './Components/oneTutorial';
+  import TestPage from './Components/Testpage';
 
 function App() {
   const [islogin, setIsLogin] = useState(false);
@@ -15,9 +18,15 @@ function App() {
          (islogin && isforgot === false) ? <Login islogin={islogin} setIsLogin={setIsLogin} setIsForgot={setIsForgot} /> : (isforgot) ? <ForgotPage setIsLogin={setIsLogin} setIsForgot={setIsForgot}/>: <Signup islogin={islogin} setIsLogin={setIsLogin} />
        }
        <br/>
-      <HomePage/> 
+       <HomePage/>  
        <br/>
-      <Tutorial/>
+       <Tutorial/>
+      <br/>
+      <Video/>
+      <br/>
+      <OneConcept/>
+      <br/>
+      <TestPage/> 
     </div>
   );
 }
