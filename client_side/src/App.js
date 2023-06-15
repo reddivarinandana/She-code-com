@@ -7,11 +7,13 @@ import HomePage from './Components/Homepage';
 import Tutorial from './Components/Tutorialpage';
    import Video from './Components/Videos';
   import OneConcept from './Components/oneTutorial';
-  import TestPage from './Components/Testpage';
+import TestPage from './Components/Testpage';
+  import Introduction from './Components/introtopython';
+ import Syntax from './Components/syntaxinpython';
 
-function App() {
-  const [islogin, setIsLogin] = useState(false);
-  const [isforgot, setIsForgot] = useState(false);
+ function App() {
+   const [islogin, setIsLogin] = useState(false);
+   const [isforgot, setIsForgot] = useState(false);
    return (
      <div className="App">
        {
@@ -24,9 +26,11 @@ function App() {
       <br/>
       <Video/>
       <br/>
-      <OneConcept/>
-      <br/>
       <TestPage/> 
+      <br/>
+      <Introduction/>
+      <br/>
+      <Syntax/>
     </div>
   );
 }

@@ -1,0 +1,40 @@
+.Introdiv{
+    width: 90%;
+    margin-left: 5%;
+    border:1px solid black;
+    text-align: left;
+    background-color: #b3dbf9;
+}
+.head{
+    text-align: center;
+    color:#0a4270;
+}
+.example{
+    margin-left: 80px;
+    font-size: large;
+    color:#FF4500;
+}
+.head2{
+    color:#0a4270;
+}
+p{
+    line-height: 27px;
+}
+.introImage{
+    height: 300px;
+    width: 400px;
+    border-radius: 7px;
+}
+.Quiz{
+    color:#0a4270;
+}
+.btn{
+    padding: 14px 30px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    color:#0a4270;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 7px;
+    border:none;
+}
