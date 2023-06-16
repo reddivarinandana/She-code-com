@@ -3,8 +3,9 @@
     width: 100%;
     display: flex;
     /* position: fixed; */
-    background-color: #b3dbf9;
-    color: #0a4270	;
+    background-color: #8C5CAF;
+    opacity: 0.9;
+    color: yellow	;
 }
 .logo{
     margin-left: 5%;
@@ -12,7 +13,7 @@
 }
 
 .tutorial {
-    margin-left: 830px;
+    margin-left: 870px;
     font-weight: normal;
 }
 
@@ -105,6 +106,7 @@
 }
 .div{
     border:2px solid #82b7e2;
+    background-color: #82b7e2;
     height: 220px;
     width: 300px;
     margin-left: 35px;
@@ -119,4 +121,12 @@
 .Videos{
     margin-top: 20px;
     border: 5px solid #b3dbf9;
+}
+.image10{
+    height: 100px;
+    width: 100px;
+}
+.image11{
+    height: 50px;
+    width: 50px;
 }

@@ -123,10 +123,10 @@ function Video(){
     return(
         <div>
             <div className="navbar">
-                <h1 className="logo"><span className="Logo" style={{ color: "red" }}>S</span><span style={{ color: "green" }}>H</span>ecodes</h1>
+                <h1 className="logo"><span className="Logo" style={{ color: "#FFA500" }}>S</span><span style={{ color: "blue" }}>H</span>ecodes</h1>
                 <h3 className="tutorial">Tutorial</h3>
                 <h3 className="video">Videos</h3>   
-                <h3 className="quiz">Quiz</h3>
+                {/* <h3 className="quiz">Quiz</h3> */}
                 <h3 className="test">Test</h3>
                 <h3 className="signup">Signup</h3>
             </div>
@@ -134,30 +134,27 @@ function Video(){
                 <h2>All Videos</h2>
             </div>
             <div className="displayVideos">
-                {/* {
-                viewoneconcepts?.map(({conceptName,video})=>
-                    (<div className="div">
-                        <video className="Videos" width="250" controls>
-                            <source  src={"video"} type="video/mp4"/>
-                        </video>
-                        <p className="colour">{conceptName}</p>
-                    </div>)
-                )} */}
+               
                {
-                viewoneconcepts?.map(({ conceptName, video }) => (
+                viewoneconcepts?.map(({ conceptName,conceptAvatar, video }) => (
                     <div className="div" key={conceptName}>
+                        {/* <div><img className="image11" src="/resources/pythonlogo.png" alt="" /></div> */}
 
-                        <a width="250" href={video} target="_blank" type="video/mp4">
+                        <div>
+                            <a href={video} target ="_blank" type="video/mp4"><img className="image10" src="/resources/youtubelogo.png" alt="" /></a>
+                        </div>
+
+                        {/* <a width="250" href={video} target="_blank" type="video/mp4">
                         {conceptName}
-                        </a>
-                    {/* <video className="Videos" width="250" controls>
-                        <source src={video} type="video/mp4" />
-                    </video> */}
+                        {conceptAvatar}
+                        </a> */}
                     <p className="colour">{conceptName}</p>
+                    <p>{conceptAvatar}</p>
                     </div>
                 ))
                 }
             </div>
+
             <div className="footer">
                 <div className="display">
                     <div className="firstpart">

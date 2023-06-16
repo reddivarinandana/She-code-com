@@ -1,0 +1,11 @@
+.orderList{
+    text-align: left;
+}
+.TotalLayout{
+    border: 1px solid red;
+    width: 90%;
+    margin-left: 5%;
+}
+.middle{
+    text-align: left;
+}
