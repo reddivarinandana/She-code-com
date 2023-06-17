@@ -43,8 +43,8 @@ function Login({islogin,setIsLogin,setIsForgot}) {
                     )} />
                     <button className="btn" onClick={logindata}>Submit</button>
                     <div onClick={handleForgot}>Forgot Password</div>
-                    <p>If you don't have any account please <span onClick={handleRedirect}>signup</span></p>
-                    <p>Or Login With</p>
+                    <p className="proper">If you don't have any account please <span onClick={handleRedirect}>signup</span></p>
+                    <p className="proper">Or Login With</p>
                     <p className="Connect-with">
                         <img className="insta" src="/resources/instaimage.jpeg" alt="" />
                         <img className="google" src="/resources/googleimage.png" alt="" />

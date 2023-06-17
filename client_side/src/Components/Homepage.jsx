@@ -9,7 +9,7 @@ function HomePage(){
                 <h1 className="logo"><span style={{color:"#FFA500"}}>S</span><span style={{color:"blue"}}>H</span>ecodes</h1>
                 <h3 className="tutorial">Tutorial</h3>
                 <h3 className="video">Videos</h3>
-                {/* <h3 className="quiz">Quiz</h3> */}
+                <h3 className="quiz">Quiz</h3>
                 <h3 className="test">Test</h3>
                 <h3 className="signup">Signup</h3>
             </div>
@@ -26,7 +26,7 @@ function HomePage(){
             <div className="concepts">
                 <h1 className="heading">Python Concepts</h1>
                 <div className="concept">
-                    <div>
+                    <div className="box_12">
                         <div id="box_10">
                             <img className="pythonlogo" src="/resources/pythonlogo.png" alt="" />
                             <h4 className="conceptcolor">Inroduction To Python</h4>                        
@@ -60,7 +60,7 @@ function HomePage(){
                     </div>
                 </div>
                 <div className="concept">
-                <div>
+                <div className="box_12">
                         <div id="box_10">
                             <img className="pythonlogo" src="/resources/pythonlogo.png" alt="" />
                             <h4 className="conceptcolor">Datatypes In Python</h4>                            
@@ -94,7 +94,7 @@ function HomePage(){
                     </div>
                 </div>
                 <div className="concept">
-                <div>
+                <div className="box_12">
                         <div id="box_10">
                             <img className="pythonlogo" src="/resources/pythonlogo.png" alt="" />
                             <h4 className="conceptcolor">Arrays In Python</h4>                            
@@ -128,7 +128,7 @@ function HomePage(){
                     </div>
                 </div>
                 <div className="concept">
-                    <div>
+                    <div className="box_12"     >
                         <div id="box_10">
                             <img className="pythonlogo" src="/resources/pythonlogo.png" alt="" />
                             <h4 className="conceptcolor">Tuples In Python</h4>                            

@@ -56,7 +56,7 @@ input {
     font-weight: bold;
 }
 
-p {
+.proper {
     margin-left: 45px;
     font-size: 15px;
     color: white;

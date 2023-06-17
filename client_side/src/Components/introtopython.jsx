@@ -37,7 +37,7 @@ function Introduction(){
                         <h2 className="head">Go With Youtube Video</h2>
                         <h2 className="head"><a href="https://www.youtube.com/watch?v=LajgX-9nNB8&list=PLC2mgeYbYNm-3aTUq98pbmrA3P1_m-aJR" ><img className="introImage" src="/resources/introimage.png" alt="" /></a></h2>
                     </div>
-                    <div>
+                    {/* <div>
                         <h1 className="Quiz">Python Quiz</h1>
                         <p>You can test your Python skills with SHecodes Quiz.</p>
                         <h1 className="Quiz">The Test</h1>
@@ -46,7 +46,7 @@ function Introduction(){
                         <p>For every question you answer correctly in the quiz, you will earn 1 point. When the quiz is finished, your total score, which can be a maximum of 25 points, will be shown to you. So, the more questions you answer correctly, the higher your score will be.</p>
                         <p>Start Quiz Good Luck</p>
                         <button className="btn">Start Quiz</button>
-                    </div>
+                    </div> */}
                 </div>
         </div>
     )
