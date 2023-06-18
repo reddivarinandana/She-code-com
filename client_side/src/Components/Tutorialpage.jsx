@@ -125,7 +125,7 @@ function Tutorial() {
                 <h1 className="logo"><span style={{ color: "#FFA500" }}>S</span><span style={{ color: "blue" }}>H</span>ecodes</h1>
                 <h3 className="tutorial">Tutorial</h3>
                 <h3 className="video">Videos</h3>
-                {/* <h3 className="quiz">Quiz</h3> */}
+                <h3 className="quiz">Quiz</h3>
                 <h3 className="test">Test</h3>
                 <h3 className="signup">Signup</h3>
             </div>
@@ -152,7 +152,7 @@ function Tutorial() {
                             <h4>Basic Syntax In Python</h4>
                         </div>
                         <p>It emphasizes readability and simplicity, making it an excellent language for beginners.</p>
-                        <button className="Button">Read More</button>
+                        <button className="Button"><a href="https://docs.google.com/document/d/1kJG_ZcTxrg3FK3E20ei5WsaK8XGcg6_oMXUJrwML12U/edit?usp=sharing">Read More</a></button>
                     </div>
                     <div className="box_11">
                         <div id="box_10">
@@ -160,7 +160,7 @@ function Tutorial() {
                             <h4>Comments In Python</h4>
                         </div>
                         <p>you can write comments on a single line using the #.Anything after # on a line is considered a comment.</p>
-                        <button className="Button">Read More</button>
+                        <button className="Button"><a href="https://docs.google.com/document/d/1OBia2KQ5VGzB_ojKyJCKH-hBlJ557Lncq5llDraUOk4/edit?usp=sharing">Read More</a></button>
                     </div>
                     <div className="box_11">
                         <div id="box_10">
@@ -168,7 +168,7 @@ function Tutorial() {
                             <h4>Variables In Python</h4>
                         </div>
                         <p>you can declare and assign multiple variables in a single line.Each variable is separated by a semicolon.</p>
-                        <button className="Button">Read More</button>
+                        <button className="Button"><a href="https://docs.google.com/document/d/1RaEweZtL7uIjZ9lpb0aDQsCDfaizaECyFl-1CE0xiuI/edit?usp=sharing">Read More</a></button>
                     </div>
                 </div>
                 <div className="concept">
@@ -178,7 +178,7 @@ function Tutorial() {
                             <h4 className="conceptcolor">Datatypes In Python</h4>                            
                         </div>
                         <p>you can declare variables and assign values of different data types in a single line. </p>
-                        <button className="Button">Read More</button>
+                        <button className="Button"><a href="https://docs.google.com/document/d/10kcshnG8t48ZirsLe_zYCLEIPdcvPCt3_u_G_14uVUc/edit?usp=sharing">Read More</a></button>
                     </div>
                     <div className="box_11">
                         <div id="box_10">

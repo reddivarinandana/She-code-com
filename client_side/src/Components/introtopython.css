@@ -1,9 +1,61 @@
+.navbar {
+    /* border: 1px solid red; */
+    height: 60px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    width: 100%;
+    /* position: fixed; */
+    /* margin-left: 5%; */
+    background-color: #8C5CAF;
+    opacity: 0.9;
+    color: yellow;	;
+}
+.logo{
+    margin-left: 5%;
+    margin-top: -1px;
+    margin-top: 10px;
+}
+.box{
+    border:1px solid #0a4270;
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 450px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.tutorial {
+    margin-left: 830px;
+    font-weight: normal;
+}
+
+.video {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.quiz {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.test {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.signup {
+    margin-left: 30px;
+    font-weight: normal;
+}
 .Introdiv{
     width: 90%;
     margin-left: 5%;
     border:1px solid black;
     text-align: left;
-    background-color: #b3dbf9;
+    background-color: #a3d9f3;
 }
 .head{
     text-align: center;
@@ -16,6 +68,7 @@
 }
 .head2{
     color:#0a4270;
+    text-align: left;
 }
 p{
     line-height: 27px;
@@ -37,4 +90,55 @@ p{
     font-size: 20px;
     border-radius: 7px;
     border:none;
+}
+
+
+.footer{
+    height:250px;
+    margin-top: 40px;
+    background-color: #b3dbf9;
+}
+.facebookimage{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    margin-left: 29px;
+}
+.googleimage{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.instaimage{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+h2{
+    color: #0a4270	; 
+    text-align: center;
+}
+.display{
+    display: flex;
+    /* width: 90%;
+    margin-left: 5%; */
+    font-size: 10px;
+    font-weight: normal;
+}
+.Quiz{
+    margin-right: 30px;
+}
+.firstpart{
+    display: flex;
+}
+.secondpart{
+    margin-left: 450px;
+}
+.thirdpart{
+    margin-left: 500px;
+}
+.text{
+    font-size: 12px;
 }

@@ -8,9 +8,9 @@ import Tutorial from './Components/Tutorialpage';
    import Video from './Components/Videos';
   import OneConcept from './Components/oneTutorial';
 import TestPage from './Components/Testpage';
-  import Introduction from './Components/introtopython';
+   import Introduction from './Components/introtopython';
  import Syntax from './Components/syntaxinpython';
-import Quiz from './Components/QuizPage';
+ import Quiz from './Components/QuizPage';
 
  function App() {
    const [islogin, setIsLogin] = useState(false);
@@ -22,7 +22,7 @@ import Quiz from './Components/QuizPage';
        }
        <br/>
        <HomePage/>
-        <br/>
+       <br/>
        <Tutorial/>
       <br/>
       <Video/>
@@ -32,8 +32,8 @@ import Quiz from './Components/QuizPage';
       <Introduction/>
       <br/>
       <Syntax/> 
-      <br/>  
-      <Quiz/>
+      <br/> 
+      <Quiz/> 
     </div>
   );
 }
