@@ -33,7 +33,7 @@ function TUTORIAL(){
                         <hr></hr>
                         <h3>OPerators in python</h3>
                         <hr></hr>
-                        <h3>Conditional Statements In Python</h3>
+                        <h3>Conditional Statements in Python</h3>
                         <hr></hr>
                         <h3>Loops In Python</h3>
                         <hr></hr>
