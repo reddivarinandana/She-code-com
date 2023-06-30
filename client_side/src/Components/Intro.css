@@ -1,0 +1,138 @@
+.topic{
+    text-align: left;
+    margin-left: 20px;
+}
+.content{
+    font-size: 20px;
+    margin-left: 40px;
+}
+.sideNavbar{
+    width: 5%;
+    border: 2px solid black;
+    background-color: #D3D3D3	;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    position: fixed;
+    height: 800px;
+}
+.layout{
+    width: 95%;
+}
+.MainLayout{
+    display: flex;
+}
+.image4{
+    height: 50px;
+    width: 50px;
+}
+.image2{
+    height: 70px;
+    width: 70px;
+}
+.tools{
+    margin-top: 450px;
+}
+.NAVBAR{
+    background-color: #614f7a	;
+    display: flex;
+    border:3px solid black;
+    width: 100%;
+    margin-left: 5%;
+    border-top: none;
+    border-right: none;
+    height: 200px;
+}
+h2{
+    margin-top: 50px;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.align-left{
+    text-align: left;
+    margin-left: 40px;
+    color:white;
+}
+.navimage{
+    margin-left: 350px;
+    /* height: 200px;
+    width: 200px; */
+    /* width: 20%;
+    height: 200px; */
+}
+.displaycourse{
+    display: flex;
+    margin-left: 5%;
+}
+.pic2{
+    height: 62px;
+    width: 50p;
+}
+.courseimage{
+    margin-top: 200px;
+    margin-left: 480px;
+    cursor: pointer;
+}
+.imgtext{
+    margin-left: 500px;
+}
+h4{
+    cursor: pointer;
+}
+.navimage{
+    cursor: pointer;
+    margin-left: 500px;
+}
+/* .coursediv{
+    border: 1px solid blue;
+    margin-left: 15%;
+    font-size: 20px;
+    height: 620px; 
+    width: 15%;
+    border-top: none;
+} */
+.coursedata{
+    border:2px solid black;
+    border-left: none;
+    border-top: none;
+    margin-left: 5%;
+    text-align: center;
+}
+#course{
+    margin-top: 25px;
+    font-size: 20px;
+    padding:15px 80px;
+    /* margin: 30px; */
+    text-align: center;
+    /* border: 1px solid red; */
+}
+#course:hover{
+    border: 3px solid black;
+    border-right: none;
+    cursor: pointer;
+}
+.display{
+    display: flex;
+}
+.margin{
+    margin-left: 50px;
+}
+.alltopics{
+    margin-left: 29px;
+    /* border: 2px solid black; */
+    width: 74%;
+}
+.onetopic{
+    border: 2px solid black;
+}
+.topic{
+    /* text-align: center; */
+    margin-left: 150px;
+    font-size: 20px;
+    font-weight: bold;
+} 
+.topic:hover{
+    color: red;
+    cursor: pointer;
+}
+
