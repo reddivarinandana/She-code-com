@@ -110,6 +110,7 @@ h4{
     border: 3px solid black;
     border-right: none;
     cursor: pointer;
+    background-color: red	;
 }
 .display{
     display: flex;
@@ -124,6 +125,7 @@ h4{
 }
 .onetopic{
     border: 2px solid black;
+    background-color: #D3D3D3	;
 }
 .topic{
     /* text-align: center; */

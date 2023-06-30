@@ -5,18 +5,9 @@ import './Materialpage.css';
 function TUTORIAL(){
     return(
         <div>
-            <div className="navbar">
-                <h1 className="logo"><span className="Logo" style={{ color: "#FFA500" }}>S</span><span style={{ color: "blue" }}>H</span>ecodes</h1>
-                <h3 className="tutorial">Tutorial</h3>
-                <h3 className="video">Videos</h3>   
-                <h3 className="quiz">Quiz</h3>
-                <h3 className="test">Test</h3>
-                <h3 className="signup">Signup</h3>
-            </div>
-
-            <div className="DisplayTutoarial">
+             <div className="DisplayTutoarial">
                 <div className="firstDiv">
-                    <h1 className="Hoverpart">Python</h1>
+                    {/* <h1 className="Hoverpart">Python</h1> */}
                 </div>
                 <div className="SecondDiv">
                     <h1>Python</h1>

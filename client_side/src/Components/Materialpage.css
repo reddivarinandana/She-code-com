@@ -45,7 +45,7 @@
 .firstDiv{
     border:1px solid blue;
     width: 20%;
-    height: 730px;
+    height: 750px;
 }
 .SecondDiv{
     border:1px solid green;
@@ -60,4 +60,8 @@
 }
 .ThirdDiv{
     border:1px solid green;
+}
+h3{
+    text-align: left;
+    margin-left: 80px;
 }
