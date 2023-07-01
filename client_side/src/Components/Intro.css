@@ -25,6 +25,7 @@
 .image4{
     height: 50px;
     width: 50px;
+    margin-top: 20px;
 }
 .image2{
     height: 70px;
@@ -99,7 +100,7 @@ h4{
     text-align: center;
 }
 #course{
-    margin-top: 25px;
+    /* margin-top: 20px; */
     font-size: 20px;
     padding:15px 80px;
     /* margin: 30px; */
@@ -120,21 +121,68 @@ h4{
 }
 .alltopics{
     margin-left: 29px;
-    /* border: 2px solid black; */
     width: 74%;
 }
 .onetopic{
+    display: flex;
     border: 2px solid black;
     background-color: #D3D3D3	;
+    /* opacity: 0.7; */
 }
 .topic{
     /* text-align: center; */
-    margin-left: 150px;
+    margin-left: 70px;
     font-size: 20px;
     font-weight: bold;
 } 
 .topic:hover{
     color: red;
     cursor: pointer;
+}
+.rhombus{
+    height: 23px;
+    width: 20px;
+   margin-left: 80px;
+   margin-top: 20px;
+}
+.downimage{
+    height: 15px;
+    width: 15px;
+}
+
+#drop{
+    border:3px solid black;
+    width: 50px;
+    height: 20px;
+    width: 20px;
+    margin-top: 20px;
+    position: absolute;
+    right: 100px;
+    /* float: right; */
+    /* margin-left: 100px; */
+}
+.subtopic{
+    display: flex;
+}
+.empty{
+    height: 20px;
+    width: 20px;
+}
+.sub{
+    /* border:2px solid black; */
+    width: 74%;
+    margin-left: 23%;
+}
+.topics{
+    border:2px solid black;
+    display: flex;
+    width: 1100px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.selection{
+    width: 1100px;
+    margin-left: 20px;
+    font-size: 20px;
 }
 
