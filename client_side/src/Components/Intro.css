@@ -1,188 +1,196 @@
-.topic{
-    text-align: left;
-    margin-left: 20px;
-}
 .content{
-    font-size: 20px;
-    margin-left: 40px;
+        font-size: 20px;
+        margin-left: 40px;
 }
+
 .sideNavbar{
-    width: 5%;
-    border: 2px solid black;
-    background-color: #D3D3D3	;
-    border-top: none;
-    border-left: none;
-    border-bottom: none;
-    position: fixed;
-    height: 800px;
+        width: 5%;
+        border: 2px solid black;
+        background-color: #D3D3D3	;
+        border-top: none;
+        border-left: none;
+        border-bottom: none;
+        position: fixed;
+        height: 800px;
 }
+
 .layout{
-    width: 95%;
+        width: 95%;
 }
+
 .MainLayout{
-    display: flex;
+        display: flex;
 }
+
 .image4{
-    height: 50px;
-    width: 50px;
-    margin-top: 20px;
+        height: 50px;
+        width: 50px;
+        margin-top: 20px;
 }
+
 .image2{
-    height: 70px;
-    width: 70px;
+        height: 70px;
+        width: 70px;
 }
+
 .tools{
-    margin-top: 450px;
+        margin-top: 450px;
 }
+
 .NAVBAR{
-    background-color: #614f7a	;
-    display: flex;
-    border:3px solid black;
-    width: 100%;
-    margin-left: 5%;
-    border-top: none;
-    border-right: none;
-    height: 200px;
+        background-color: #614f7a	;
+        display: flex;
+        border:3px solid black;
+        width: 100%;
+        margin-left: 5%;
+        border-top: none;
+        border-right: none;
+        height: 200px;
 }
+
 h2{
-    margin-top: 50px;
-    font-weight: bolder;
-    font-size: 35px;
+        margin-top: 50px;
+        font-weight: bolder;
+        font-size: 35px;
 }
+
 .align-left{
-    text-align: left;
-    margin-left: 40px;
-    color:white;
+        text-align: left;
+        margin-left: 40px;
+        color:white;
 }
+
 .navimage{
-    margin-left: 350px;
-    /* height: 200px;
-    width: 200px; */
-    /* width: 20%;
-    height: 200px; */
+        margin-left: 350px;
 }
+
 .displaycourse{
-    display: flex;
-    margin-left: 5%;
+        display: flex;
+        margin-left: 5%;
 }
+
 .pic2{
-    height: 62px;
-    width: 50p;
+        height: 62px;
+        width: 50p;
 }
+
 .courseimage{
-    margin-top: 200px;
-    margin-left: 480px;
-    cursor: pointer;
+        margin-top: 200px;
+        margin-left: 480px;
+        cursor: pointer;
 }
+
 .imgtext{
-    margin-left: 500px;
+        margin-left: 500px;
 }
+
 h4{
-    cursor: pointer;
+        cursor: pointer;
 }
+
 .navimage{
-    cursor: pointer;
-    margin-left: 500px;
+        cursor: pointer;
+        margin-left: 500px;
 }
-/* .coursediv{
-    border: 1px solid blue;
-    margin-left: 15%;
-    font-size: 20px;
-    height: 620px; 
-    width: 15%;
-    border-top: none;
-} */
+
 .coursedata{
-    border:2px solid black;
-    border-left: none;
-    border-top: none;
-    margin-left: 5%;
-    text-align: center;
+        border:3px solid black;
+        border-left: none;
+        border-top: none;
+        text-align: center;
+        width: 17%;
 }
+
 #course{
-    /* margin-top: 20px; */
-    font-size: 20px;
-    padding:15px 80px;
-    /* margin: 30px; */
-    text-align: center;
-    /* border: 1px solid red; */
+        font-size: 20px;
+        padding:15px 80px;
+        text-align: center;
 }
+
 #course:hover{
-    border: 3px solid black;
-    border-right: none;
-    cursor: pointer;
-    background-color: red	;
+        border: 3px solid black;
+        border-right: none;
+        cursor: pointer;
+        background-color: red	;
 }
+
 .display{
-    display: flex;
+        width: 95%;
+        margin-left: 5%;
+        display: flex;
 }
-.margin{
-    margin-left: 50px;
-}
-.alltopics{
-    margin-left: 29px;
-    width: 74%;
-}
+
 .onetopic{
-    display: flex;
-    border: 2px solid black;
-    background-color: #D3D3D3	;
-    /* opacity: 0.7; */
+        display: flex;
+        border: 2px solid black;
+        background-color: #D3D3D3	;
 }
+
 .topic{
-    /* text-align: center; */
-    margin-left: 70px;
-    font-size: 20px;
-    font-weight: bold;
+        text-align: left;
+        margin-left: 120px;
+        font-size: 20px;
+        font-weight: bold;
+        min-height: 10px;
+        max-height: 1000px;
+        overflow-y: scroll;
 } 
+
 .topic:hover{
-    color: red;
-    cursor: pointer;
+        color: red;
+        cursor: pointer;
 }
+
 .rhombus{
-    height: 23px;
-    width: 20px;
-   margin-left: 80px;
-   margin-top: 20px;
+        height: 23px;
+        width: 20px;
+        position: absolute;
+        left: 400px;
+        margin-top: 20px;
 }
+
 .downimage{
-    height: 15px;
-    width: 15px;
+        height: 15px;
+        width: 15px;
 }
 
 #drop{
-    border:3px solid black;
-    width: 50px;
-    height: 20px;
-    width: 20px;
-    margin-top: 20px;
-    position: absolute;
-    right: 100px;
-    /* float: right; */
-    /* margin-left: 100px; */
+        border:3px solid black;
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        right: 100px;
+        margin-top: -45px;
 }
+
 .subtopic{
-    display: flex;
+        display: flex;
+        text-align: center;
+        margin-left: -145px;
 }
+
 .empty{
-    height: 20px;
-    width: 20px;
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        left: 400px;
+        margin-top: 15px;
 }
+
 .sub{
-    /* border:2px solid black; */
-    width: 74%;
-    margin-left: 23%;
+        width: 74%;
+        margin-left: 24%;
 }
+
 .topics{
-    border:2px solid black;
-    display: flex;
-    width: 1100px;
-    margin-left: 40px;
-    cursor: pointer;
+        border:3px solid black;
+        cursor: pointer;
 }
-.selection{
-    width: 1100px;
-    margin-left: 20px;
-    font-size: 20px;
+
+.entire{
+        width: 78%;
+        margin-left: 2%;
+        margin-top: 2%;
+        margin-bottom: 2%;
 }
 
