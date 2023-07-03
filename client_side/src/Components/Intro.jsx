@@ -39,14 +39,14 @@ const Intro = () => {
       })
     }
   }
-  // const displaySubtopicContent = () => {
-  //   fetch("http://localhost:5050/subTopicContent").then((res) => {
-  //     return res.json();
-  //   }).then((res) => {
-  //     setSubTopicContent(res);
-  //     console.log(res);
-  //   })
-  // }
+  const displaySubtopicContent = () => {
+    fetch("http://localhost:5050/subTopicContent").then((res) => {
+      return res.json();
+    }).then((res) => {
+      setSubTopicContent(res);
+      console.log(res);
+    })
+  }
   
 
   return (
@@ -86,12 +86,13 @@ const Intro = () => {
 
         <div className='entire'>
           {
-            topics.map(({ Topic_Name }) =>
+            topics.map(({ Topic_Name , Content}) =>
               <div  className='topics'>
                 <img  onClick={() => displaySubtopic()} className="rhombus" src="/resources/rhomb.png" alt="" />
-                <p className='topic'>{Topic_Name}</p>
+                <p className='topic'>{Topic_Name}</p>  
                 <div onClick={() => displaySubtopic()} id="drop"><img className="downimage" src="/resources/down.png" alt="" />
                 </div>
+                
                 {
                   subtopicClick ?
 
@@ -110,7 +111,7 @@ const Intro = () => {
           }
         </div>
 
-        {/* <div>
+        <div>
           {
             subTopicContent.map(({ SubTopic_Content  }) =>
               <div>
@@ -118,7 +119,7 @@ const Intro = () => {
               </div>
             )
           }
-        </div> */}
+        </div>
 
       </div>
     </div>)
