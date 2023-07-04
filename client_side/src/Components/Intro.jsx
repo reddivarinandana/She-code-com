@@ -88,7 +88,7 @@ const Intro = () => {
 
         <div className='entire'>
           {
-            topics.map(({ Topic_Name , Content}) =>
+            topics.map(({ Topic_Name }) =>
               <div  className='topics'>
                 <img  onClick={() => displaySubtopic()} className="rhombus" src="/resources/rhomb.png" alt="" />
                 <p className='topic'>{Topic_Name}</p>  
