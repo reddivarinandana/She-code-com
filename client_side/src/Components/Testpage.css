@@ -1,0 +1,173 @@
+.navbar {
+    /* border: 1px solid red; */
+    height: 60px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    width: 100%;
+    /* position: fixed; */
+    /* margin-left: 5%; */
+    background-color: #8C5CAF;
+    opacity: 0.9;
+    color: yellow	;
+}
+.logo{
+    margin-left: 5%;
+    margin-top: -1px;
+    margin-top: 10px;
+}
+/* .box{
+    border:1px solid #0a4270;
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 450px;
+    border-radius: 7px;
+    margin-top: 10px;
+} */
+.tutorial {
+    margin-left:850px;
+    font-weight: normal;
+}
+
+.video {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.quiz {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.test {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.signup {
+    margin-left: 30px;
+    font-weight: normal;
+}
+.quote{
+    color:white;
+}
+.icon{
+    margin-left: 5px;
+     height: 40px;
+     width: 40px;
+     margin-top: 10px;
+     border-radius: 7px;
+     border:1px solid #0a4270;
+}
+.footer{
+    height:250px;
+    margin-top: 40px;
+    background-color: #b3dbf9;
+}
+.display{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.Quiz{
+    margin-right: 30px;
+}
+.firstpart{
+    display: flex;
+}
+.secondpart{
+    margin-left: 460px;
+}
+.thirdpart{
+    margin-left: 490px;
+}
+.text{
+    font-size: 12px;
+}
+.Heading{
+    color:#0a4270;
+}
+.facebookimage{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+}
+.googleimage{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.instaimage{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+h2{
+    color: #0a4270	; 
+}
+.certify{
+    color:#0a4270;
+}
+.font{
+    color:#0a4270;
+    font-size:25px;
+}
+.box5{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    /* border:3px solid #0a4270; */
+}
+.box5 div{
+    border:5px solid #0a4270;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 300px;
+    width: 400px;
+    margin-left: 30px;
+    border-radius: 9px;
+}
+.basic{
+    border:3px solid #0a4270;
+    height: 200px;
+    width: 400px;
+    margin-left: 550px;
+    margin-top: 60px;
+    background-color: #b3dbf9;
+    border-radius: 7px;
+}
+.center{
+    text-align: center;
+    margin-top: 43px;
+    margin-right: 150px;
+}
+.cerification{
+    color:yellow;
+    border: 1px solid #0a4270;
+    padding: 10px;
+    width: 100px;
+    font-size: 12px;
+    margin-top: 50px;
+    margin-left: 45px;
+    border-radius: 7px;
+    background-color: #8C5CAF;
+}
+.normal{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    color:#0a4270;
+}
+.margin{
+    margin-top: 50px;
+    color:#0a4270;
+}
+.div1{
+    background-color: #b3dbf9;
+}

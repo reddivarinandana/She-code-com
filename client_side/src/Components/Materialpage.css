@@ -1,0 +1,67 @@
+.navbar {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    /* position: fixed; */
+    background-color: #8C5CAF;
+    opacity: 0.9;
+    color: yellow	;
+}
+.logo{
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+.tutorial {
+    margin-left: 838px;
+    font-weight: normal;
+}
+
+.video {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.quiz {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.test {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.signup {
+    margin-left: 30px;
+    font-weight: normal;
+}
+.DisplayTutoarial{
+    width: 90%;
+    margin-left: 5%;
+    border:1px solid red;
+    display: flex;
+}
+.firstDiv{
+    border:1px solid blue;
+    width: 20%;
+    height: 750px;
+}
+.SecondDiv{
+    border:1px solid green;
+    width: 80%;
+}
+.Hoverpart:hover{
+    padding:10px 10px;
+    border:5px solid #8C5CAF;
+    cursor: pointer;
+    /* background-color: blueviolet; */
+    /* color: yellow; */
+}
+.ThirdDiv{
+    border:1px solid green;
+}
+h3{
+    text-align: left;
+    margin-left: 80px;
+}

@@ -1,0 +1,248 @@
+.navbar {
+    /* border: 1px solid red; */
+    height: 60px;
+    width: 100%;
+    display: flex;
+    /* position: fixed; */
+    /* margin-left: 5%; */
+    background-color: #8C5CAF;
+    opacity: 0.9;
+    color: yellow	;
+}
+.logo{
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+.tutorial {
+    margin-left: 828px;
+    font-weight: normal;
+}
+
+.video {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.quiz {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.test {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.signup {
+    margin-left: 30px;
+    font-weight: normal;
+}
+.quote{
+    color:yellow;
+    margin-top: 50px;
+    font-size: 35spx;
+}
+
+.educationImage {
+    width: 100%;
+    height: 700px;
+    background-image: url("../../public/resources/background.jpg");
+    background-size: 1555px 700px;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    padding-top: 40px;
+    
+}
+.sliderpic{
+    height: 100vh;
+    width: 100%;
+    opacity: 0.7;
+}
+.box{
+    border:1px solid #0a4270;
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 450px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+/* .left{
+    margin-top: -0px;
+} */
+/* .search-box{
+    border:1px solid blue;
+    height: 40px;
+    width: 50px;
+    padding: 5px 5px;
+    margin-left: 250px;
+} */
+.concepts{
+    margin-top: 10px;
+    color: #0a4270	;
+    width: 90%;
+    margin-left: 5%;
+}
+.concept{
+    display: flex;
+    margin-top: 33px;
+    font-size: 20px;
+}
+.concept div{
+    height: 430px;
+    width: 250px;
+    /* border: 3px solid #0a4270; */
+    text-align: left;
+    border-radius: 7px;
+    padding:32px;
+    /*box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;*/
+}
+/* .concept div:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+} */
+.box1{
+    margin-left: 33px;
+}
+.footer{
+    height:250px;
+    margin-top: 40px;
+    background-color: #b3dbf9;
+}
+.facebookimage{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+}
+.googleimage{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.instaimage{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+h2{
+    color: #0a4270	; 
+}
+.display{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.Quiz{
+    margin-right: 30px;
+}
+.firstpart{
+    display: flex;
+}
+.secondpart{
+    margin-left: 460px;
+}
+.thirdpart{
+    margin-left: 490px;
+}
+.text{
+    font-size: 12px;
+}
+.introimage{
+    height: 150px;
+    width: 243px;
+    background-color: #b3dbf9;
+}
+.container{
+    display: flex;
+    height: 300px;
+    width: 90%;
+    margin-left: 5%;
+}
+.container div{
+    /* border:1px solid black; */
+    height: 300px;
+    width: 300px;
+}
+.Layout1{
+    color: #0a4270	; 
+    line-height: 30px;
+}
+.Layout2{
+    margin-left: 50px;
+    color: #0a4270	; 
+    line-height: 30px;
+}
+.Layout3{
+    margin-left: 50px;
+    color: #0a4270	; 
+    line-height: 30px;
+}
+.Layout4{
+    margin-left: 50px;
+    color: #0a4270	; 
+    line-height: 24px;
+}
+.image1{
+    width: 300px;
+    height: 200px;
+}
+#box_10{
+    /* border:3px solid #0a4270; */
+    height: 145px;
+    width: 180px;
+    background-color: #b3dbf9;
+    cursor: pointer;
+    text-align: center;
+}
+#box_10:hover{
+    color:red;
+}
+.pythonlogo{
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.box_11{
+    margin-left: 27px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.Button{
+    padding:12px 12px;
+    border-radius: 7px;
+    background-color: #b3dbf9;
+    margin-top: 17px;
+    border:none;
+    font-size: 17px;
+    font-weight:545;
+}
+.Button:hover{
+    color:#0a4270;
+    background-color: #FFA500;
+}
+p{
+    line-height: 30px;
+}
+.button{
+    font-weight: bolder;
+    border:none;
+    color:#0a4270;
+    background-color: #FFA500;
+    padding:10px 10px;
+    margin-top: 100px;
+    border-radius: 7px;
+    font-size: 17px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.heading{
+    margin-top: 60px;
+}
+.box_12{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}

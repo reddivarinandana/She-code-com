@@ -1,0 +1,135 @@
+.orderList{
+    text-align: left;
+}
+.totaldiv{
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid #0a4270;
+    margin-top: 5px;
+}
+.middle{
+    text-align: left;
+}
+.navbar {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    /* position: fixed; */
+    background-color: #8C5CAF;
+    opacity: 0.9;
+    color: yellow	;
+}
+.logo{
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+.tutorial {
+    margin-left: 830px;
+    font-weight: normal;
+}
+
+.video {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.quiz {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.test {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.signup {
+    margin-left: 30px;
+    font-weight: normal;
+}
+.footer{
+    height:250px;
+    margin-top: 40px;
+    background-color: #b3dbf9;
+}
+.display{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.Quiz{
+    margin-right: 30px;
+}
+.firstpart{
+    display: flex;
+}
+.secondpart{
+    margin-left: 460px;
+}
+.thirdpart{
+    margin-left: 490px;
+}
+.text{
+    font-size: 12px;
+}
+.facebookimage{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+}
+.googleimage{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.instaimage{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.Python-quiz{
+    color:#0a4270;
+    text-align: left;
+}
+.Test{
+    text-align: left;
+    color:#0a4270;
+}
+h1{
+    color:#0a4270;
+}
+.para{
+    text-align: left;
+    margin-left: 55px;
+}
+.totaldiv{
+    width: 90%;
+    margin-left: 5%;
+}
+.anchortag{
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color:yellow;
+}
+a:hover{
+    text-decoration: underline;
+}
+.linking{
+    padding:10px 10px;
+    color:yellow;
+    background-color: #8C5CAF;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.quizclass{
+    height: 280px;
+    /* margin-top: 20px; */
+}

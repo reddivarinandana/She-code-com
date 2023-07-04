@@ -1,0 +1,83 @@
+.sideNavbar{
+    width: 5%;
+    border: 2px solid black;
+    background-color: #D3D3D3	;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    position: fixed;
+    height: 800px;
+}
+.layout{
+    width: 95%;
+}
+.MainLayout{
+    display: flex;
+}
+.image4{
+    height: 50px;
+    width: 50px;
+}
+.image2{
+    height: 70px;
+    width: 70px;
+}
+.tools{
+    margin-top: 500px;
+}
+.NAVBAR{
+    background-color: #614f7a	;
+    display: flex;
+    border:3px solid black;
+    width: 100%;
+    margin-left: 5%;
+    border-top: none;
+    border-right: none;
+}
+h2{
+    margin-top: 50px;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.align-left{
+    text-align: left;
+    margin-left: 40px;
+    color:white;
+}
+.navimage{
+    margin-left: 350px;
+}
+.displaycourse{
+    display: flex;
+    margin-left: 5%;
+}
+.python{
+    border: 3px solid black;
+    width: 18%;
+    height: 578px;
+    border-top: none;
+}
+.hovering:hover{
+    border: 3px solid black;
+    cursor: pointer;
+    border-left: none;
+    border-right: none;
+}
+.courseimage{
+    margin-top: 200px;
+    margin-left: 480px;
+    cursor: pointer;
+}
+.imgtext{
+    margin-left: 500px;
+}
+h4{
+    cursor: pointer;
+}
+.navimage{
+    cursor: pointer;
+}
+.pic2{
+    height: 70px;
+    width: 70p;
+}

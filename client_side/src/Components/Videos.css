@@ -1,0 +1,133 @@
+.navbar {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    /* position: fixed; */
+    background-color: #8C5CAF;
+    opacity: 0.9;
+    color: yellow	;
+}
+.logo{
+    margin-left: 6%;
+    margin-top: 10px;
+}
+
+.tutorial {
+    margin-left: 800px;
+    font-weight: normal;
+}
+
+.video {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.quiz {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.test {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.signup {
+    margin-left: 30px;
+    font-weight: normal;
+}
+.box{
+    border:1px solid #0a4270;
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 450px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.icon{
+    margin-left: 5px;
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    border-radius: 7px;
+    border:1px solid #0a4270;
+}
+.facebookimage{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+}
+.googleimage{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.instaimage{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.footer{
+    height:250px;
+    margin-top: 40px;
+    background-color: #b3dbf9;
+}
+.display{
+    display: flex;
+    width: 90%;
+    margin-left: 6%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.Quiz{
+    margin-right: 30px;
+}
+.firstpart{
+    display: flex;
+}
+.secondpart{
+    margin-left: 450px;
+}
+.thirdpart{
+    margin-left: 475px;
+}
+.text{
+    font-size: 12px;
+}
+.colour{
+    color:#0a4270;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+.div{
+    border:2px solid #82b7e2;
+    background-color: #82b7e2;
+    height: 220px;
+    width: 300px;
+    margin-left: 35px;
+    margin-top: 30px;
+    border-radius: 7px;
+}
+.displayVideos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: 4%;
+}
+.Videos{
+    margin-top: 20px;
+    border: 5px solid #b3dbf9;
+}
+.image10{
+    height: 100px;
+    width: 100px;
+}
+.image11{
+    height: 50px;
+    width: 50px;
+}
