@@ -74,6 +74,7 @@ const Intro = () => {
 
       <div className='display'>
         <div className='coursedata'>
+          <div className='a'>
           {
             course.map(({ Course_Name }) =>
               <div className='coursediv'>
@@ -81,6 +82,7 @@ const Intro = () => {
               </div>
             )
           }
+          </div>
         </div>
 
 
@@ -102,7 +104,9 @@ const Intro = () => {
                           <div className='subtopic'>
                             <img className="empty" src="/resources/empty.png" alt="" />
                             <p className='subTopic' onClick={() => displaySubtopicContent()}>{SubTopic_Name} </p>
+                            
                           </div>)
+                        
                       }
                     </div> : " "
                 }
@@ -120,6 +124,8 @@ const Intro = () => {
             )
           }
         </div>
+
+       
 
       </div>
     </div>)
